@@ -1,0 +1,42 @@
+#container {
+  margin: auto;
+  text-align: center;
+}
+#canvas {
+  position: absolute;
+  background-color: antiquewhite;
+}
+#canvas .DB {
+  position: absolute;
+  background-color: green;
+}
+#canvas .DB .Disk {
+  position: absolute;
+  display: none;
+}
+#player-color {
+  padding: 10px 0;
+  top: 180px;
+}
+#pass {
+  position: absolute;
+  top: 110%;
+  left: 40%;
+}
+#winner {
+  font-size: 30px;
+  margin-top: 20%;
+  font-weight: bold;
+}
+#result {
+  display: none;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+
+  background-color: rgb(225, 221, 221);
+  opacity: 0.9;
+  width: 100%;
+  height: 50%;
+}
